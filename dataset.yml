@@ -1,4 +1,4 @@
-'American National Election Survey 1996':
+American National Election Survey 1996:
   link: 'https://www.statsmodels.org/dev/datasets/generated/anes96.html'
   attr_name: anes96
   nrows: 944
@@ -15,8 +15,7 @@
     ClinLR: category
     DoleLR: category
     logpopul: float
-
-'Breast Cancer Data':
+Breast Cancer Data:
   link: 'https://www.statsmodels.org/dev/datasets/generated/cancer.html'
   attr_name: cancer
   nrows: 301
@@ -24,8 +23,7 @@
   columns:
     population: int
     cancer: int
-
-'Bill Greene’s credit scoring data':
+Bill Greene’s credit scoring data:
   link: 'https://www.statsmodels.org/dev/datasets/generated/ccard.html'
   attr_name: ccard
   nrows: 72
@@ -36,8 +34,7 @@
     INCOME: float
     INCOMESQ: float
     OWNRENT: bool
-
-'Smoking and lung cancer in eight cities in China':
+Smoking and lung cancer in eight cities in China:
   link: 'https://www.statsmodels.org/dev/datasets/generated/china_smoking.html'
   attr_name: china_smoking
   nrows: 8
@@ -47,8 +44,7 @@
     smoking_yes_cancer_no: int
     smoking_no_cancer_yes: int
     smoking_no_cancer_no: int
-
-'Mauna Loa Weekly Atmospheric CO2 Data':
+Mauna Loa Weekly Atmospheric CO2 Data:
   link: 'https://www.statsmodels.org/dev/datasets/generated/co2.html'
   attr_name: co2
   nrows: 2284
@@ -56,8 +52,7 @@
   columns:
     time: date
     co2: float
-
-'First 100 days of the US House of Representatives 1995':
+First 100 days of the US House of Representatives 1995:
   link: 'https://www.statsmodels.org/dev/datasets/generated/committee.html'
   attr_name: committee
   nrows: 20
@@ -69,8 +64,7 @@
     STAFF: int
     PRESTIGE: bool
     BILLS103: int
-
-'World Copper Market 1951-1975 Dataset':
+World Copper Market 1951-1975 Dataset:
   link: 'https://www.statsmodels.org/dev/datasets/generated/copper.html'
   attr_name: copper
   nrows: 25
@@ -82,7 +76,7 @@
     ALUMPRICE: float
     INVENTORYINDEX: float
     TIME: int
-'US Capital Punishment dataset.':
+US Capital Punishment dataset.:
   link: 'https://www.statsmodels.org/dev/datasets/generated/cpunish.html'
   attr_name: cpunish
   nrows: 17
@@ -95,8 +89,7 @@
     VC100k96: int
     SOUTH: bool
     DEGREE: float
-
-'Danish Money Demand Data':
+Danish Money Demand Data:
   link: 'https://www.statsmodels.org/dev/datasets/generated/danish_data.html'
   attr_name: danish_data
   nrows: 55
@@ -108,7 +101,7 @@
     lpy: float
     ibo: float
     ide: float
-'El Nino - Sea Surface Temperatures':
+El Nino - Sea Surface Temperatures:
   link: 'https://www.statsmodels.org/dev/datasets/generated/elnino.html'
   attr_name: elnino
   nrows: 61
@@ -127,7 +120,7 @@
     OCT: float
     NOV: float
     DEC: float
-'Engel (1857) food expenditure data':
+Engel (1857) food expenditure data:
   link: 'https://www.statsmodels.org/dev/datasets/generated/engel.html'
   attr_name: engel
   nrows: 235
@@ -135,34 +128,30 @@
   columns:
     income: float
     foodexp: float
-
-'Affairs dataset':
+Affairs dataset:
   link: 'https://www.statsmodels.org/dev/datasets/generated/fair.html'
   attr_name: fair
   nrows: 6366
   ncols: 8
   columns:
     rate_marriage: category
-    age: int yrs_married: int
+    age: int
+    yrs_married: int
     children: int
     religious: category
     educ: category
     occupation: category
     occupation_husb: category
     affairs: float
-'World Bank Fertility Data':
+World Bank Fertility Data:
   link: 'https://www.statsmodels.org/dev/datasets/generated/fertility.html'
   attr_name: fertility
   nrows: 209
   ncols: 58
-  columns:
-    'Country Name’: str
-    ‘Country Code’: str
-    ‘Indicator Name’: str
-    ‘Indicator Code’: int
-    ‘1960’: float
-    ‘2013’: float
-'Grunfeld (1950) Investment Data':
+  columns: >-
+    Country Name’: str ‘Country Code’: str ‘Indicator Name’: str ‘Indicator
+    Code’: int ‘1960’: float ‘2013’: float 
+Grunfeld (1950) Investment Data':
   link: 'https://www.statsmodels.org/dev/datasets/generated/grunfeld.html'
   attr_name: grunfeld
   nrows: 220
@@ -173,7 +162,7 @@
     capital: float
     firm: str
     year: date
-'Transplant Survival Data':
+Transplant Survival Data:
   link: 'https://www.statsmodels.org/dev/datasets/generated/heart.html'
   attr_name: heart
   nrows: 69
@@ -182,7 +171,7 @@
     survival: int
     censors: bool
     age: float
-'(West) German interest and inflation rate 1972-1998':
+(West) German interest and inflation rate 1972-1998:
   link: 'https://www.statsmodels.org/dev/datasets/generated/interest_inflation.html'
   attr_name: interest_inflation
   nrows: 107
@@ -192,7 +181,7 @@
     quarter: int
     Dp: float
     R: float
-'Longley dataset':
+Longley dataset:
   link: 'https://www.statsmodels.org/dev/datasets/generated/longley.html'
   attr_name: longley
   nrows: 16
@@ -205,7 +194,7 @@
     ARMED: int
     POP: int
     YEAR: date
-'United States Macroeconomic data':
+United States Macroeconomic data:
   link: 'https://www.statsmodels.org/dev/datasets/generated/macrodata.html'
   attr_name: macrodata
   nrows: 203
@@ -225,7 +214,7 @@
     pop: float
     infl: float
     realint: float
-'Travel Mode Choice':
+Travel Mode Choice:
   link: 'https://www.statsmodels.org/dev/datasets/generated/modechoice.html'
   attr_name: modechoice
   nrows: 840
@@ -240,7 +229,7 @@
     gc: int
     hinc: int
     psize: int
-'Nile River flows at Ashwan 1871-1970':
+Nile River flows at Ashwan 1871-1970:
   link: 'https://www.statsmodels.org/dev/datasets/generated/nile.html'
   attr_name: nile
   nrows: 100
@@ -248,7 +237,7 @@
   columns:
     year: date
     volume: int
-'RAND Health Insurance Experiment Data':
+RAND Health Insurance Experiment Data:
   link: 'https://www.statsmodels.org/dev/datasets/generated/randhie.html'
   attr_name: randhie
   nrows: 20190
@@ -264,13 +253,13 @@
     hlthg: bool
     hlthf: bool
     hlthp: bool
-'Taxation Powers Vote for the Scottish Parliament 1997':
+Taxation Powers Vote for the Scottish Parliament 1997:
   link: 'https://www.statsmodels.org/dev/datasets/generated/scotland.html'
   attr_name: scotland
   nrows: 32
   ncols: 4
   columns:
-    YES: float
+    'YES': float
     COUTAX: int
     UNEMPF: float
     MOR: float
@@ -278,7 +267,7 @@
     GDP: float
     AGE: float
     COUTAX_FEMALEUNEMP: float
-'Spector and Mazzeo (1980) - Program Effectiveness Data':
+Spector and Mazzeo (1980) - Program Effectiveness Data:
   link: 'https://www.statsmodels.org/dev/datasets/generated/spector.html'
   attr_name: spector
   nrows: 32
@@ -288,7 +277,7 @@
     TUCE: float
     PSI: bool
     GRADE: bool
-'Stack loss data':
+Stack loss data:
   link: 'https://www.statsmodels.org/dev/datasets/generated/stackloss.html'
   attr_name: stackloss
   nrows: 21
@@ -298,7 +287,7 @@
     AIRFLOW: float
     WATERTEMP: float
     ACIDCONC: float
-'Star98 Educational Dataset':
+Star98 Educational Dataset:
   link: 'https://www.statsmodels.org/dev/datasets/generated/star98.html'
   attr_name: star97
   nrows: 303
@@ -326,8 +315,7 @@
     PTRATIO_PCTAF: float
     PERMINTE_AVYRSEXP_AVSAL: float
     PERSPEN_PTRATIO_PCTAF: float
-
-'Statewide Crime Data 2009':
+Statewide Crime Data 2009:
   link: 'https://www.statsmodels.org/dev/datasets/generated/statecrime.html'
   attr_name: statecrime
   nrows: 51
@@ -341,7 +329,7 @@
     single: float
     white: float
     urban: float
-'U.S. Strike Duration Data':
+U.S. Strike Duration Data:
   link: 'https://www.statsmodels.org/dev/datasets/generated/strikes.html'
   attr_name: strikes
   nrows: 62
@@ -349,7 +337,7 @@
   columns:
     duration: int
     iprod: float
-'Yearly sunspots data 1700-2008':
+Yearly sunspots data 1700-2008:
   link: 'https://www.statsmodels.org/dev/datasets/generated/sunspots.html'
   attr_name: sunspots
   nrows: 309
